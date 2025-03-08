@@ -1,7 +1,7 @@
 class Solution:
     def checkPowersOfThree(self, n: int) -> bool:
         power = 1
-        while power * 3 <= n:
+        while power * 3 <= n: 
             power *= 3
         
         while n > 0 and power > 0:
